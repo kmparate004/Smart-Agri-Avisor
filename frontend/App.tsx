@@ -168,9 +168,9 @@ const App: React.FC = () => {
           zoomSnap: 0.1,
           zoomDelta: 0.5,
           attributionControl: false,
-          minZoom: 3,
-          maxZoom: 12
-        }).setView([22.97, 78.65], 5);
+          minZoom: 4,
+          maxZoom: 15
+        }).setView([22.50, 80.65], 4.4);
 
         mapRef.current = map;
 

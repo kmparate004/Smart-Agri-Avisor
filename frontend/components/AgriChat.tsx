@@ -80,6 +80,7 @@ const AgriChat: React.FC<Props> = ({ user, currentContext, messages, setMessages
         }
     }, [messages, loading]);
 
+
     const handleSend = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!input.trim() || loading) return;

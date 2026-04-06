@@ -47,17 +47,7 @@ const Header: React.FC<Props> = ({ activeTab, onTabChange, onOpenProfile, user }
               )}
             </div>
           ))}
-          <div className="relative">
-            <a
-              href="/docs.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative text-[10px] font-black uppercase tracking-[0.2em] transition-all cursor-pointer px-4 py-2 text-emerald-700 hover:text-emerald-900 group flex items-center gap-2"
-            >
-              <i className="fas fa-file-lines text-[11px]"></i>
-              Docs
-            </a>
-          </div>
+          
         </nav>
 
         {/* User Account Section */}

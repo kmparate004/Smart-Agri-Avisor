@@ -138,7 +138,7 @@ const LoginPage: React.FC<Props> = ({ onLogin }) => {
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder="e.g. Aadya Madankar"
+                    placeholder="e.g. Username"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-14 pr-6 text-white placeholder:text-white/20 focus:outline-none focus:border-emerald-500 transition-all font-bold"
                   />
                 </div>
