@@ -1,6 +1,8 @@
 # Smart Agri Advisor - Backend Dependencies
 # Python 3.10+ required
 
+python_version==3.13
+
 # Web Framework
 fastapi==0.127.0
 uvicorn==0.34.0
