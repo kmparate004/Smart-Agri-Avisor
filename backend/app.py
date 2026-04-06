@@ -319,6 +319,9 @@ def health_check():
         "timestamp": datetime.utcnow().isoformat()
     }
 
+@app.get("/")
+def root():
+    return {"message": "Smart Agri Advisor Backend is live!"}
 
 if __name__ == '__main__':
     import uvicorn
